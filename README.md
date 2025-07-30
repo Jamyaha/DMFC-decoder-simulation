@@ -76,3 +76,19 @@ All analysis codes are put here afer being sorted into different categories:
   - miscellaneous shell scripts. 
   
 Note that these analysis codes are not edited from original versions so may not run on its own (e.g., you may need to change directory address to point relevant data). Contact authors if you need help.
+
+Modifications and Contributions by Jamyaha Cleckley
+
+As part of my research internship, I expanded this project to include:
+
+    Baseline Prediction Analysis (see newfigure3ef(2).ipynb):
+    Implemented a simple baseline model that predicts average ball position across trials, and calculated RMSE over time to benchmark decoding performance.
+
+    Decoder Performance Analysis (see simplepredfig.ipynb):
+    Added condition-wise comparisons (bounce vs non-bounce trials), separated RMSE evaluations, and visualized how neural decoders perform relative to baselines.
+
+    Utilities:
+
+        Created or modified utility functions in decoding_summary.py and dataset_augment_utils.py for plotting, masking, and RMSE calculation.
+
+These updates help quantify how well neural activity in DMFC predicts object motion during occlusion, supporting the role of mental simulation in decision making and motor planning.
