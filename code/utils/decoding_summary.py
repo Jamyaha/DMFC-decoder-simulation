@@ -2,7 +2,8 @@ from utils.phys_utils import nnan_pearsonr as nnan_pearsonr
 import utils.phys_utils as phys_utils
 from utils import data_utils as phys_data_utils
 from utils import utils as analysis_utils
-partial_corr = analysis_utils.partial_corr # TBD
+partial_corr = analysis_utils.partial_corr
+import matplotlib.pyplot as plt           # TBD
 
 from glob import glob
 import sys
